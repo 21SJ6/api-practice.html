@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1655210913315-e8147faf7600?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.result img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #50ad3b;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 26px;
+  padding: 10px;
+  margin: 10px;
+  width: 160px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
